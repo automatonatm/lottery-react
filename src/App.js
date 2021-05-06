@@ -7,9 +7,8 @@ import web3 from './web3'
 
 const App = ()  => {
 
-  console.log(web3.version)
 
-  web3.eth.getAccounts().then(console.log)
+    web3.eth.getAccounts().then(e => console.log(e));
 
 
   return (
